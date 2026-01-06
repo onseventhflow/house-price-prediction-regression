@@ -44,13 +44,14 @@ This model serves as a baseline solution and can be extended with more advanced 
 - NumPy  
 - Pandas  
 - Matplotlib  
-- Scikit-learn  
+- Scikit-learn
+- Tensorflow
 
 ---
 
 ## Dataset
 
-- **Type:** Structured tabular housing data  
+- **Type:** Structured tabular housing data and dataset from Scikit-learn
 - **Features:** Numerical attributes related to housing characteristics  
 - **Target:** House price  
 
