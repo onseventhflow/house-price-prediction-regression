@@ -1,0 +1,7 @@
+- Python
+- NumPy
+- Pandas
+- Matplotlib
+- Seaborn
+- Statsmodels
+- Scikit-learn
