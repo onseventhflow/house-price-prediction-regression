@@ -22,7 +22,8 @@ Predict house prices using structured data such as:
 - Square Footage  
 - Number of Bedrooms & Bathrooms  
 - Lot Size  
-- Year Built  
+- Year Built
+  
 ![Pairplot](assets/pairplot.png)
 ---
 
@@ -52,6 +53,7 @@ Predict house prices using structured data such as:
 - **Test R² Score:** ~0.998  
 
 The model performs well and captures the relationship between features and house prices.
+
 ![Prediction](assets/prediction.png)
 ---
 
@@ -59,7 +61,8 @@ The model performs well and captures the relationship between features and house
 
 - Square Footage has the strongest impact on price  
 - Lot Size also significantly affects price  
-- Older houses tend to have lower prices  
+- Older houses tend to have lower prices
+  
 ![Distribution](assets/hist.png)
 ---
 
