@@ -83,6 +83,7 @@ The model performs well and captures the relationship between features and house
 ---
 
 ## Repository Structure
+```
 house-price-prediction-regression/
 │
 ├── data/
@@ -94,6 +95,7 @@ house-price-prediction-regression/
 ├── README.md
 ├── requirements.txt
 └── LICENSE
+```
 ---
 
 ## Future Improvements
