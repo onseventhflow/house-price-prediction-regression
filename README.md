@@ -1,82 +1,94 @@
 # 🏠 House Price Prediction Using Regression
 
-A regression-based machine learning project that predicts house prices from structured housing data using statistical and machine learning techniques.
+A machine learning project that predicts house prices based on property features using regression techniques.
 
 ---
 
-## Overview
+##  Overview
 
-This repository demonstrates an end-to-end workflow for a house price prediction system, including data preprocessing, feature engineering, model training, and evaluation.
+This project demonstrates a complete machine learning workflow:
+- Data preprocessing  
+- Feature engineering  
+- Model training  
+- Model evaluation  
 
-The project is designed with a focus on clean implementation, reproducibility, and alignment with industry-level practices.
-
----
-
-## Problem Statement
-
-Given structured housing features, predict the corresponding house price as a continuous numerical value.
+The goal is to understand how different features affect house prices and build a reliable prediction model.
 
 ---
 
-## Solution Approach
+##  Problem Statement
 
-- Load and explore the housing dataset  
-- Perform data cleaning and preprocessing  
-- Engineer relevant features (e.g., house age)  
-- Split data into training and testing sets (80:20)  
-- Train a regression model on training data  
-- Evaluate model performance on unseen test data  
-
----
-
-## Model Details
-
-- **Problem Type:** Supervised Regression  
-- **Model:** Ordinary Least Squares (OLS) Linear Regression  
-- **Target Variable:** House Price (continuous)  
-- **Evaluation Metrics:** R² Score, Error Metrics  
-
-This model serves as a baseline and can be extended using advanced regression techniques.
+Predict house prices using structured data such as:
+- Square Footage  
+- Number of Bedrooms & Bathrooms  
+- Lot Size  
+- Year Built  
 
 ---
 
-## Technology Stack
+##  Approach
+
+1. Load and explore the dataset  
+2. Clean and preprocess the data  
+3. Create a new feature: `House_age`  
+4. Split data into training and testing sets (80:20)  
+5. Train a regression model (OLS)  
+6. Evaluate performance on test data  
+
+---
+
+##  Model Details
+
+- **Type:** Supervised Learning (Regression)  
+- **Algorithm:** Linear Regression (OLS)  
+- **Target:** House Price  
+- **Metrics:** R² Score  
+
+---
+
+##  Results
+
+- **Train R² Score:** ~0.999  
+- **Test R² Score:** ~0.998  
+
+The model performs well and captures the relationship between features and house prices.
+
+---
+
+##  Key Insights
+
+- Square Footage has the strongest impact on price  
+- Lot Size also significantly affects price  
+- Older houses tend to have lower prices  
+
+---
+
+## Tech Stack
 
 - Python  
-- NumPy  
-- Pandas  
-- Matplotlib  
-- Seaborn  
-- Statsmodels  
-- Scikit-learn  
+- Pandas, NumPy  
+- Matplotlib, Seaborn  
+- Statsmodels, Scikit-learn  
 
 ---
 
-## Dataset
+##  Dataset
 
-- **Type:** Structured tabular dataset  
-- **Features:** Numerical attributes related to housing characteristics  
-- **Target:** House Price  
-
----
-
-## Results
-
-The regression model successfully captures the relationship between input features and house prices, achieving strong predictive performance on test data.
+- Structured tabular data  
+- Numerical features describing house properties  
+- Target variable: House Price  
 
 ---
-
-## Model Performance
-
-- R² Score (Train): ~0.999  
-- R² Score (Test): ~0.998  
 
 ---
 
 ## Repository Structure
 house-price-prediction-regression/
 │
-├── House_Price_Prediction_Regression.ipynb
+├── data/
+│   └── house_price.csv
+├── notebooks/
+│   └── House_Price_Prediction.ipynb
 ├── README.md
 ├── requirements.txt
 └── LICENSE
@@ -84,13 +96,7 @@ house-price-prediction-regression/
 
 ## Future Improvements
 
-- Address multicollinearity between features  
-- Apply regularized models (Ridge, Lasso)  
-- Perform residual analysis  
+- Address multicollinearity between features   
 - Deploy as a web application (Streamlit)  
 
----
 
-## Author
-
-Ayush Kumar Chaubey
