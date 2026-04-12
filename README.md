@@ -86,9 +86,11 @@ The model performs well and captures the relationship between features and house
 house-price-prediction-regression/
 │
 ├── data/
-│   └── house_price.csv
+│ └── house_price.csv
+│
 ├── notebooks/
-│   └── House_Price_Prediction.ipynb
+│ └── House_Price_Prediction.ipynb
+│
 ├── README.md
 ├── requirements.txt
 └── LICENSE
