@@ -47,16 +47,6 @@ Predict house prices using structured data such as:
 
 ---
 
-##  Results
-
-- **Train R² Score:** ~0.999  
-- **Test R² Score:** ~0.998  
-
-The model performs well and captures the relationship between features and house prices.
-
-![Prediction](assets/prediction.png)
----
-
 ##  Key Insights
 
 - Square Footage has the strongest impact on price  
@@ -66,6 +56,16 @@ The model performs well and captures the relationship between features and house
 ![Distribution](assets/hist.png)
 ---
 
+##  Results
+
+- **Train R² Score:** ~0.999  
+- **Test R² Score:** ~0.998  
+
+The model performs well and captures the relationship between features and house prices.
+
+![Prediction](assets/prediction.png)
+
+---
 ## Tech Stack
 
 - Python  
