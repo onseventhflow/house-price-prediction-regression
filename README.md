@@ -1,4 +1,4 @@
-# 🏠 House Price Prediction Using Regression
+#  House Price Prediction Using Regression
 
 A machine learning project that predicts house prices based on property features using regression techniques.
 
